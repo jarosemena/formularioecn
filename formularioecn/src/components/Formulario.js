@@ -1,8 +1,14 @@
 import React from 'react';
+import "../styles/Formulario.css"
+
 
 class Formulario extends React.Component {
     render(){
-       return <h1>Prueba de Titulo. </h1>
+       return (
+       <div className="formulario">
+           <h1>Prueba de Titulo. </h1>
+           </div>
+       )
     }
 }
 
