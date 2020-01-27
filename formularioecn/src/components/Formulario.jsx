@@ -55,7 +55,7 @@ class Formulario extends React.Component {
                         <div class="col-form-label-sm col-6 col-md-3 col-lg-3" id="lbnombre">
                             <label for="exampleFormControlInput1">Fecha Nacimiento</label>
                             <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Fecha Nacimiento"></input>
-
+¿¿¿¿¿
                         </div>
                         <div class="col-form-label-sm col-6 col-md-3 col-lg-3" id="lbnombre">
                             <label for="exampleFormControlInput1">Nacionalidad</label>
@@ -111,11 +111,11 @@ class Formulario extends React.Component {
                         <div class="col-form-label-sm col-8 col-md-6 col-lg-5 col-xl-4" id="lbnombre">
                             <label for="exampleFormControlInput1">Alérgico (a) a algún alimentación/Medicamento </label> <a>  </a>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"></input>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions0" id="inlineRadio1" value="option1"></input>
                                 <label class="form-check-label" for="inlineRadio1">Sí</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions" id="inlineRadio2" value="option2"></input>
+                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions0" id="inlineRadio2" value="option2"></input>
                                 <label class="form-check-label" for="inlineRadio2">No</label>
                             </div>
 
@@ -155,11 +155,11 @@ class Formulario extends React.Component {
                         <div class="col-form-label-sm col-6 col-md-6 col-lg-3 " id="lbnombre">
                             <label for="exampleFormControlInput1">   Vive en El extranjero o en el Interior del país </label> <a>  </a>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"></input>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions1" id="inlineRadio1" value="option1"></input>
                                 <label class="form-check-label" for="inlineRadio1">Sí</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions" id="inlineRadio2" value="option2"></input>
+                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions1" id="inlineRadio2" value="option2"></input>
                                 <label class="form-check-label" for="inlineRadio2">No</label>
                             </div>
 
@@ -185,11 +185,11 @@ class Formulario extends React.Component {
                         <div class="col-form-label-sm col-12 col-md-6 col-lg-4 " id="lbnombre">
                             <label for="exampleFormControlInput1"> ¿Ha estado Casado por la Iglesia ?</label> <a>  </a>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"></input>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions2" id="inlineRadio1" value="option1"></input>
                                 <label class="form-check-label" for="inlineRadio1">Sí</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions" id="inlineRadio2" value="option2"></input>
+                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions2" id="inlineRadio2" value="option2"></input>
                                 <label class="form-check-label" for="inlineRadio2">No</label>
                             </div>
 
@@ -205,11 +205,11 @@ class Formulario extends React.Component {
                         <div class="col-form-label-sm col-12  " id="lbnombre">
                             <label for="exampleFormControlInput1"> ¿ Tiene parientes o amigos que han vivido el Encuentro de Novios ?</label> <a>  </a>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"></input>
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions3" id="inlineRadio1" value="option1"></input>
                                 <label class="form-check-label" for="inlineRadio1">Sí</label>
                             </div>
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions" id="inlineRadio2" value="option2"></input>
+                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions3" id="inlineRadio2" value="option2"></input>
                                 <label class="form-check-label" for="inlineRadio2">No</label>
                             </div>
 
@@ -218,8 +218,28 @@ class Formulario extends React.Component {
                     </div>
 
                     <div class="row">
-                        <div class="col-form-label-sm col-6 col-md-6 col-lg-4" id="lbnombre">
-                            <label for="exampleFormControlInput1"> ¿ Tiene parientes o amigos que han vivido el Encuentro de Novios ?</label> <a>  </a>
+                        <div class="col-form-label-sm col-6 col-md-6 col-lg-3" id="lbnombre">
+                            <label for="exampleFormControlInput1"> ¿ Ha estado casado por la iglesia ?</label> <a>  </a>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions4" id="inlineRadio1" value="option1"></input>
+                                <label class="form-check-label" for="inlineRadio1">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions4" id="inlineRadio2" value="option2"></input>
+                                <label class="form-check-label" for="inlineRadio2">No</label>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-form-label-sm col-6 col-md-6 col-lg-3" id="lbnombre">
+
+                            <label for="exampleFormControlInput1">Cuantos tiempo <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="..."></input></label>
+                            
+
+                        </div>
+                        <div class="col-form-label-sm col-6 col-md-6 col-lg-3 " id="lbnombre">
+                            <label for="exampleFormControlInput1"> ¿ Mantiene union de Hecho ?</label> <a>  </a>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"></input>
                                 <label class="form-check-label" for="inlineRadio1">Sí</label>
@@ -232,36 +252,44 @@ class Formulario extends React.Component {
                         </div>
 
 
-                        <div class="col-form-label-sm col-6 col-md-6 col-lg-4" id="lbnombre">
+                        <div class="col-form-label-sm col-6 col-md-6 col-lg-3" id="lbnombre">
 
-                            <label for="exampleFormControlInput1">Parroquia a la que pertenece</label>
-                            <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="Parroquia"></input>
-
-                        </div>
-                        <div class="col-form-label-sm col-6 col-md-6 col-lg-4 " id="lbnombre">
-                            <label for="exampleFormControlInput1"> ¿ Tiene parientes o amigos que han vivido el Encuentro de Novios ?</label> <a>  </a>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"></input>
-                                <label class="form-check-label" for="inlineRadio1">Sí</label>
-                            </div>
-                            <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions" id="inlineRadio2" value="option2"></input>
-                                <label class="form-check-label" for="inlineRadio2">No</label>
-                            </div>
-
-                        </div>
-
-
-                        <div class="col-form-label-sm col-6 col-md-6 col-lg-4" id="lbnombre">
-
-                            <label for="exampleFormControlInput1">Parroquia a la que pertenece</label>
-                            <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="Parroquia"></input>
+                            <label for="exampleFormControlInput1">Cuanto Tiempo <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="..."></input></label>
+                            
 
                         </div>
 
                     </div>
 
+                    <div class="row">
+                        <hr></hr>
 
+                    </div>
+                    +ss="col-form-label-sm col-12 " id="lbnombre">
+                        <label for="colFormLabelSm">En Caso de Emergencia Contactar a:</label>
+                        </div>
+                        </div>
+                    <div class="row">
+                    <div class="col-form-label-sm col-4 col-md-4 " id="lbnombre">
+                    
+                            <label for="exampleFormControlInput1">Nombre</label>
+                            <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre"></input>
+
+                        </div>
+                        <div class="col-form-label-sm col-4 col-md-4 " id="lbnombre">
+
+                            <label for="exampleFormControlInput1">Parentensco</label>
+                            <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Parentesco"></input>
+
+                        </div>
+                        <div class="col-form-label-sm col-4 col-md-4 " id="lbnombre">
+
+                            <label for="exampleFormControlInput1">Celular</label>
+                            <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="Celular"></input>
+
+                        </div>
+
+                    </div>
 
 
 
