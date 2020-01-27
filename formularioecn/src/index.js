@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Formulario from './components/Formulario';
 import * as serviceWorker from './serviceWorker';
 
+<<<<<<< HEAD
+=======
+ReactDOM.render(<Formulario />, document.getElementById('root'));
+>>>>>>> master
 
 import Formulario from './components/Formulario'
 
