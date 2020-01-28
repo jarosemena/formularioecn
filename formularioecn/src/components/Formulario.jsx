@@ -54,7 +54,7 @@ class Formulario extends React.Component {
                         <div class="col-form-label-sm col-6 col-md-3 col-lg-3" id="lbnombre">
                             <label for="exampleFormControlInput1">Fecha Nacimiento</label>
                             <input type="date" class="form-control" id="exampleFormControlInput1" placeholder="Fecha Nacimiento"></input>
-¿¿¿¿¿
+
                         </div>
                         <div class="col-form-label-sm col-6 col-md-3 col-lg-3" id="lbnombre">
                             <label for="exampleFormControlInput1">Nacionalidad</label>
@@ -234,7 +234,7 @@ class Formulario extends React.Component {
                         <div class="col-form-label-sm col-6 col-md-6 col-lg-3" id="lbnombre">
 
                             <label for="exampleFormControlInput1">Cuantos tiempo <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="..."></input></label>
-                            
+
 
                         </div>
                         <div class="col-form-label-sm col-6 col-md-6 col-lg-3 " id="lbnombre">
@@ -254,7 +254,7 @@ class Formulario extends React.Component {
                         <div class="col-form-label-sm col-6 col-md-6 col-lg-3" id="lbnombre">
 
                             <label for="exampleFormControlInput1">Cuanto Tiempo <input type="Number" class="form-control" id="exampleFormControlInput1" placeholder="..."></input></label>
-                            
+
 
                         </div>
 
@@ -266,13 +266,13 @@ class Formulario extends React.Component {
                     </div>
                     <div class="row">
 
-                    <div class="col-form-label-sm col-12 " id="lbnombre">
-                        <label for="colFormLabelSm">En Caso de Emergencia Contactar a:</label>
+                        <div class="col-form-label-sm col-12 " id="lbnombre">
+                            <label for="colFormLabelSm">En Caso de Emergencia Contactar a:</label>
                         </div>
-                        </div>
+                    </div>
                     <div class="row">
-                    <div class="col-form-label-sm col-4 col-md-4 " id="lbnombre">
-                    
+                        <div class="col-form-label-sm col-4 col-md-4 " id="lbnombre">
+
                             <label for="exampleFormControlInput1">Nombre</label>
                             <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre"></input>
 
@@ -292,8 +292,43 @@ class Formulario extends React.Component {
 
                     </div>
 
+                    <div class="row">
+
+                        <div class="col-form-label-sm col-12 " id="lbnombre">
+                            <label for="colFormLabelSm">Constancia</label>
+                        </div>
+                    </div>
+                    <div class="row">
 
 
+                        <div class="col-form-label-sm col-12 col-md-6 col-lg-6 " id="lbnombre">
+                            <label for="exampleFormControlInput1"> ¿ Necesita constancia de asistencia para la empresa en la que labora ?</label> <a>  </a>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions6" id="inlineRadio1" value="option1"></input>
+                                <label class="form-check-label" for="inlineRadio1">Sí</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" defaultChecked name="inlineRadioOptions6" id="inlineRadio2" value="option2"></input>
+                                <label class="form-check-label" for="inlineRadio2">No</label>
+                            </div>
+
+                        </div>
+                    
+                    <div class="col-form-label-sm col-6 col-md-3 col-lg-3" id="lbnombre">
+
+                        <label for="exampleFormControlInput1">Nombre de la Empresa</label>
+                        <input type="Text" class="form-control" id="exampleFormControlInput1" placeholder="Empresa"></input>
+
+                    </div>
+                    <div class="col-form-label-sm col-6 col-md-3 col-lg-3" id="lbnombre">
+
+                        <label for="exampleFormControlInput1">a quien va dirigida</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Sr."></input>
+
+                    </div>
+
+
+                    </div>
 
 
                 </div >
