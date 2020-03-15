@@ -9,7 +9,7 @@ class Formulario extends React.Component {
     render() {
         return (
             <div class-name="container" >
-                <button type="button" class="btn btn-primary">Primary</button>
+                <button type="button" class="btn btn-primary">Guardar</button>
                 <div class-name="container" >
                     <div class-name="row">
                         <div class-name="col" >
@@ -238,7 +238,7 @@ class Formulario extends React.Component {
 
                         </div>
                         <div class="col-form-label-sm col-6 col-md-6 col-lg-3 " id="lbnombre">
-                            <label for="exampleFormControlInput1"> ¿ Mantiene union de Hecho ?</label> <a>  </a>
+                            <label for="exampleFormControlInput1"> ¿    Mantiene union de Hecho     ?</label> <a>  </a>
                             <div class="form-check form-check-inline">
                                 <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"></input>
                                 <label class="form-check-label" for="inlineRadio1">Sí</label>
@@ -330,9 +330,10 @@ class Formulario extends React.Component {
 
                     </div>
 
-
+                    <button type="button" class="btn btn-primary">Guardar</button>
                 </div >
             </div >
+             
 
         )
     }
