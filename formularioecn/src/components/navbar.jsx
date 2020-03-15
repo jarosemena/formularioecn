@@ -6,7 +6,7 @@ class navbar extends React.Component {
     render() {
         return (
             <div className = "container-fluid" >
-                <a href='/'>
+                <a href="/">
                     <img src={Logo} height="35" alt="Logo Ecn"/>
                     <label className ="font_weight_light">Encuentro <span className ="font-weight-bold"> Catolico </span> para Novios</label>
                     
