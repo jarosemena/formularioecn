@@ -9,4 +9,4 @@ import Sol from './pages/solicitud';
 const container = document.getElementById('root');
 
 //ReactDOM.render (<Formulario />,container);
-ReactDOM.render (<Sol />,container);
+ReactDOM.render (<Sol FDS="151" NocheInfo= "2020/03/05"/>,container);

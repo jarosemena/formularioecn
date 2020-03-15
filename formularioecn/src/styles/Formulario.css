@@ -14,3 +14,20 @@
 #Separador{
     border-radius: 8px 8px 8px 8px ;
 }
+
+.btn{
+    background-color: sienna;
+    border-radius: 5px;
+    border-style: blure;
+    border-bottom-color: saddlebrown;
+    border-right-color: saddlebrown;
+    border-top: none;
+    border-left: none;
+    
+    
+}
+
+.btn-block{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
