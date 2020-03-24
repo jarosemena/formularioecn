@@ -1,7 +1,7 @@
 import React from 'react';
 import "../styles/Formulario.css"
 import 'bootstrap/dist/css/bootstrap.css';
-import {Conf} from "../config/DataConfig.json"
+import Conf from "../config/DataConfig.json"
 
 
 
@@ -16,9 +16,17 @@ class Formulario extends React.Component {
             [e.target.name]: e.target.value
         });
     }
+  
     handleClick = (e) => {
-        console.log(this.state);
-        
+         console.log("configuracion " + Conf.PersonPath)
+
+         if (this.state.cedula != undefined){
+             
+            
+            
+         } else {
+             prompt("Debe ingresar la cedula para poder guardar el registro ");
+         }
 
     }
     handleSubmit = (e) => {
@@ -170,6 +178,7 @@ class Formulario extends React.Component {
                             </div>
                             <div className="col-form-label-sm col-6 col-md-6 col-lg-3 " id="lbnombre">
                                 <label >   Vive en El extranjero o en el Interior del país </label>
+                                <br/>
                                 <div className="form-check form-check-inline">
                                     <input onChange={this.handleChange} className="form-check-input" type="radio" name="inlineRadioOptions1" value="option1"></input>
                                     <label className="form-check-label" for="inlineRadio1">Sí</label>

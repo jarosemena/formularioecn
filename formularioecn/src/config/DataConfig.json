@@ -1,3 +1,6 @@
-{"conf":[
-    {"DataPath":"../Data"}
-]}
+{
+    "DataPath":"../Data",
+    "PersonPath":"../Data/Persons",
+    "FDSPath":"../Data/fds",
+    "NochePath":"../Data/Noche_info"
+}

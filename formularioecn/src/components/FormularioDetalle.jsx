@@ -67,7 +67,7 @@ class Formulario extends React.Component {
 
                             <div className="col-form-label-sm col-12 col-md-6 col-lg-4 " id="lbnombre">
                                 <label > ¿ Tiene parientes o amigos que han vivido el Encuentro de Novios ?</label>
-                                <div className="form-check form-check-inline">
+                                <div className="form-check form-check-inline first-check">
                                     <input onChange={this.handleChange} className="form-check-input" type="radio" name="inlineRadioOptions2" value="option1"></input>
                                     <label className="form-check-label" for="inlineRadio1">Sí</label>
                                 </div>
@@ -87,7 +87,8 @@ class Formulario extends React.Component {
                         <div className="row">
                             <div className="col-form-label-sm col-6 col-md-6 col-lg-3" id="lbnombre">
                                 <label > ¿ Ha estado casado por la iglesia ?</label>
-                                <div className="form-check form-check-inline">
+                                <br/>
+                                <div className="form-check form-check-inline first-check">
                                     <input onChange={this.handleChange} className="form-check-input" type="radio" name="inlineRadioOptions4"  value="option1"></input>
                                     <label className="form-check-label" for="inlineRadio1">Sí</label>
                                 </div>
@@ -107,7 +108,8 @@ class Formulario extends React.Component {
                             </div>
                             <div className="col-form-label-sm col-6 col-md-6 col-lg-3 " id="lbnombre">
                                 <label > ¿    Mantiene union de Hecho     ?</label>
-                                <div className="form-check form-check-inline">
+                                <br/>
+                                <div className="form-check form-check-inline first-check">
                                     <input onChange={this.handleChange} className="form-check-input" type="radio" name="inlineRadioOptions"  value="option1"></input>
                                     <label className="form-check-label" for="inlineRadio1">Sí</label>
                                 </div>
@@ -159,7 +161,8 @@ class Formulario extends React.Component {
                         <div className="row">
                             <div className="col-form-label-sm col-8 col-md-6 col-lg-5 col-xl-4" id="lbnombre">
                                 <label >Alérgico (a) a algún alimentación/Medicamento </label>
-                                <div className="form-check form-check-inline">
+                                <br/>
+                                <div className="form-check form-check-inline first-check">
                                     <input onChange={this.handleChange} className="form-check-input" type="radio" name="inlineRadioOptions0"  value="option1"></input>
                                     <label className="form-check-label" for="inlineRadio1">Sí</label>
                                 </div>
@@ -191,7 +194,8 @@ class Formulario extends React.Component {
 
                             <div className="col-form-label-sm col-12 col-md-6 col-lg-6 " id="lbnombre">
                                 <label > ¿ Necesita constancia de asistencia para la empresa en la que labora ?</label>
-                                <div className="form-check form-check-inline">
+                                <br/>
+                                <div className="form-check form-check-inline first-check">
                                     <input onChange={this.handleChange} className="form-check-input" type="radio" name="inlineRadioOptions6"  value="option1"></input>
                                     <label className="form-check-label" for="inlineRadio1">Sí</label>
                                 </div>
@@ -217,7 +221,7 @@ class Formulario extends React.Component {
 
 
                         </div>
-
+                        firstcheck
                         <button type="button" onClick={this.handleClick} className="btn btn-primary btn-block">Guardar</button>
                     </div >
                 </div >
